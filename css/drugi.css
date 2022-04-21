@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700display=swap');
+header {
+	height: 100vh;
+	width: 100%;
+}
+@media screen and (min-width: 1280px){
+
+.container-pc-1 {
+	left: 10%;
+	position: absolute;
+	height: 100vh;
+	width: 80%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("..image/audi/olav-tvedt-yq-efMJMuPg-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0 75%, 100% 75%, 100% 100%, 0% 100%);
+	transition: 0.5s;
+}
+.container-pc-2 {
+	left: 10%;
+	position: absolute;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url("../image/opel/julian-hochgesang-SVF1cgPhB0s-unsplash.jpg");
+	height: 100vh;
+	width: 80%;
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0 75%, 100% 75%, 100% 50%, 0 50%);
+	transition: 0.2s;
+}
+.container-pc-3 {
+	left: 10%;
+	position: absolute;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/logos/olena-sergienko-mOqu_wxUKBE-unsplash.jpg");
+	height: 100vh;
+	width: 80%;
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0 25%, 100% 25%, 100% 50%, 0 50%);
+	transition: 0.2s;
+}
+.container-pc-4 {
+	position: absolute;
+	left: 10%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/logos/victor-sutty-Sv0AxtA8YxI-unsplash.jpg");
+	height: 100vh;
+	width: 80%;
+	background-position: center;
+	background-size: cover;
+	clip-path: polygon(0 25%, 100% 25%, 100% 0, 0 0);
+	transition: 0.2s;
+
+	/* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); <-- pokaż cały */
+}
+/* .shadow{
+    background-color: rgba(0,0,0,0.8);
+} */
+
+div.container-pc-1:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	z-index: 2;
+}
+div.container-pc-2:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	z-index: 2;
+}
+div.container-pc-3:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	z-index: 2;
+}
+div.container-pc-4:hover {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+	z-index: 2;
+}
+
+.box-1 {
+	position: absolute;
+	left: 4%;
+	bottom: 0;
+	width: 30%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url("../image/little/blake-meyer-CRNbHjNaljo-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 0vh;
+	opacity: 0;
+	transition: 0.5s;
+}
+.box-2 {
+	position: absolute;
+	left: 35%;
+	bottom: 0;
+	width: 30%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url("../image/little/lorenzo-rezende-DymBqYRawgQ-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 0vh;
+	opacity: 0;
+	transition: 0.5s;
+}
+.box-3 {
+	position: absolute;
+	left: 66%;
+	bottom: 0;
+	width: 30%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url("../image/little/mart-pieterman-s3E4EWYNH8E-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 0vh;
+	opacity: 0;
+	transition: 0.5s;
+	border-radius: 3px solid white;
+}
+header div.container-pc-1:hover .box-1 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-1:hover .box-2 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-1:hover .box-3 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-2:hover .box-1 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-2:hover .box-2 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-2:hover .box-3 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-3:hover .box-1 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-3:hover .box-2 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-3:hover .box-3 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-4:hover .box-1 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-4:hover .box-2 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+header div.container-pc-4:hover .box-3 {
+	opacity: 1;
+	z-index: 10;
+	height: 25vh;
+	cursor: pointer;
+}
+.offer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    width: 35%;
+    height: 20%;
+}
+.main-offer{
+    position: absolute;
+	left: 50%;
+	top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    width: 25%;
+    height: 10%;
+}
+a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .5s;
+    padding: 10px 45px;
+}
+a:hover{
+    color: royalblue;
+
+}
+.container-audi{
+    display: block;
+    position: absolute;
+    left: 10%;
+    height: 50vh;
+    width: 80%;
+    margin: 20px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(38, 128, 212, 0.9);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+section{
+    height: 100vh;
+    margin: 20px;
+}
+
+.card image{
+    height: 800px;
+    width: 640px;
+}
+}
+@media screen and (max-width: 1280px){
+body{
+    margin: 0;
+}
+button a{
+    display: none;
+}
+button .offer .offer-mobile{
+    display: none;
+}
+a:hover{
+    color: royalblue;
+
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../image/logos/mobile-logo.jpg");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+button .main-offer .mobile-offer{
+    display: none;
+}
+button.offer {
+    display: none;
+}
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(9, 38, 119, 0.623);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: -20px;
+    height: 50px;
+}
+i {
+    color:white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    font-size: 20px;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    margin-top: 5px;
+}
+.contact p {
+    color:white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    margin-top: 10px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+    background-color: royalblue;
+}
+a{
+    transition: .5s;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
